@@ -15,4 +15,4 @@ Dataset 2: https://www.kaggle.com/datasets/andrewmvd/hard-hat-detection
 # steps for running
 - no need to run any of pre-processing code since datasets folder contains pre-processed data
 - cd into yolov5
-- run the command python ` detect.py --weights ./runs/Final/weights/best.pt --source 0 ` , which will run our weights using the camera, you can replace 0 by path for any folder containing image or url where results will be stored in ./runs/detect
+- run the command `python  detect.py --weights ./runs/Final/weights/best.pt --source 0 ` , which will run our weights using the camera, you can replace 0 by path for any folder containing image or url where results will be stored in ./runs/detect
